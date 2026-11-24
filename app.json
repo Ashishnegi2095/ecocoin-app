@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "EcoCoin",
+    "slug": "ecocoin",
+    "scheme": "ecocoin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      ["expo-camera", {
+        "cameraPermission": "EcoCoin uses your camera to scan recycling machine QR codes."
+      }]
+    ],
+    "experiments": { "typedRoutes": true },
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.ecocoin.recycling" }
+  }
+}
